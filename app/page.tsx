@@ -68,7 +68,7 @@ const Page = async () => {
                 src={
                   typeof hero.image === "string" ? hero.image : hero.image?.url
                 }
-                alt={hero.imageAlt || "Hero Image"}
+                alt={"Hero Image"}
                 width={800}
                 height={400}
                 priority
